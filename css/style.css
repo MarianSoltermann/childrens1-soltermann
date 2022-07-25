@@ -1,0 +1,150 @@
+*{
+	font-family: font-family: 'Ubuntu', sans-serif;
+}
+.texto{
+	text-align: center;
+	font-size: 16px;
+	color: grey;
+}
+
+#botonera{
+	font-size: 21px;
+	margin-right: 10px;
+}
+#logo{
+	width: 120px;
+	margin-left: 10px;
+}
+#bg-green{
+	background-color: #B2FF59;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.contacto img{
+	width: 35px;
+}
+
+.contacto{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+	padding: 10px;
+
+}
+
+.contacto ul{
+	display: flex;
+	list-style: none;
+	cursor: pointer;
+}
+
+.contacto ul li{
+	margin-right: 20px;
+    padding-top: 10px;
+}
+
+.contacto ul li a{
+	color: rgba(100, 160, 200, 1.0);
+	text-decoration: none;
+}
+
+.scale:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+}
+#boton{
+	background-color: #FDE9AA;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	margin-left: 15px;
+	padding: 6px;
+}
+#botoncito{
+	background-color: #ffd833;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	margin-bottom: 12px;
+	padding: 6px;
+}
+#botonete{
+	background-color:#ffa7c6;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	padding: 6px;
+}
+button:hover{
+	box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-webkit-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-moz-box-shadow:1px 5px 14px 1px rgba(0,0,0,0.42);
+	-o-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-ms-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	cursor: pointer;
+}
+.articulo{
+	padding: 10px;	
+}
+
+.articulo img{
+    width: 100%;
+}
+
+.looks{
+	display: flex;
+	justify-content: space-between;
+}
+.temporada{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+article img{
+	width: 100%;
+} 
+.ingreso{
+	color: grey;
+	text-align: center;
+	font-size: 18px;
+}
+#carrusel{
+	padding-right: 20px;
+	height: 618px;
+}
+#card{
+	padding-left: 20px;
+}
+
+.card-text{
+	color: grey;
+	font-size: 18px;
+}
+#temporada{
+	color: grey;
+	text-align: center;
+}
+#articulo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.formulario{
+    padding: 10px;
+	border-style: solid;
+	border-color: #90ddff;
+	border-radius: 10px;
+	color: grey;
+}
+h4{
+	color: grey;
+}
